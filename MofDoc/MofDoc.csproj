@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AFA737C-FEA0-420D-A608-7353A92FF6A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MofDoc</RootNamespace>
+    <AssemblyName>MofDoc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>info.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MOFCOD\bin\Debug\DevExpress.BonusSkins.v13.1.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.1.UI, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.1.Extensions, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>F:\Library\Oracle\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Branch.cs" />
+    <Compile Include="Class\DateType.cs" />
+    <Compile Include="Class\Document.cs" />
+    <Compile Include="Class\DocumentReport.cs" />
+    <Compile Include="Class\IncomeDoc.cs" />
+    <Compile Include="Class\MailParameter.cs" />
+    <Compile Include="Class\MofException.cs" />
+    <Compile Include="Class\OracleConnector.cs" />
+    <Compile Include="Class\OrganizationInfo.cs" />
+    <Compile Include="Class\Permission.cs" />
+    <Compile Include="Class\SqlConnector.cs" />
+    <Compile Include="Class\Tool.cs" />
+    <Compile Include="Enum\DatabaseType.cs" />
+    <Compile Include="Enum\DocumentType.cs" />
+    <Compile Include="Enum\ListFormType.cs" />
+    <Compile Include="Enum\QueryType.cs" />
+    <Compile Include="Forms\Dialog\ActionProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\ActionProgress.Designer.cs">
+      <DependentUpon>ActionProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigDb.Designer.cs">
+      <DependentUpon>ConfigDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\ErrorMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\ErrorMessage.Designer.cs">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\InfoMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\InfoMessage.Designer.cs">
+      <DependentUpon>InfoMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\WaiMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\WaiMessage.Designer.cs">
+      <DependentUpon>WaiMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialog\SuccessMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog\SuccessMessage.Designer.cs">
+      <DependentUpon>SuccessMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Domestic\DomesticList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Domestic\DomesticList.Designer.cs">
+      <DependentUpon>DomesticList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Domestic\DomesticRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Domestic\DomesticRegister.Designer.cs">
+      <DependentUpon>DomesticRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\AddDecision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\AddDecision.Designer.cs">
+      <DependentUpon>AddDecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\AddReply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\AddReply.Designer.cs">
+      <DependentUpon>AddReply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\CardRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\CardRegister.Designer.cs">
+      <DependentUpon>CardRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\CardRegisterWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\CardRegisterWizard.Designer.cs">
+      <DependentUpon>CardRegisterWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\DirectRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\DirectRegister.Designer.cs">
+      <DependentUpon>DirectRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\DirectRegisterMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\DirectRegisterMode.Designer.cs">
+      <DependentUpon>DirectRegisterMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\DirectRegisterWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\DirectRegisterWizard.Designer.cs">
+      <DependentUpon>DirectRegisterWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\IncomeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\IncomeList.Designer.cs">
+      <DependentUpon>IncomeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\Renewal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Income\Card\Renewal.Designer.cs">
+      <DependentUpon>Renewal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Info\AddDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Info\AddDescription.Designer.cs">
+      <DependentUpon>AddDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Info\AddOrganizationInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Info\AddOrganizationInfo.Designer.cs">
+      <DependentUpon>AddOrganizationInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Info\OrganizationInfoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Info\OrganizationInfoList.Designer.cs">
+      <DependentUpon>OrganizationInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Outcome\OutcomeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Outcome\OutcomeList.Designer.cs">
+      <DependentUpon>OutcomeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Outcome\OutcomeRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Outcome\OutcomeRegister.Designer.cs">
+      <DependentUpon>OutcomeRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Page\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Page\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\Income\dsControlCardBackS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Income\dsControlCardBackS.designer.cs">
+      <DependentUpon>dsControlCardBackS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Income\dsRptCCFS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Income\dsRptCCFS.designer.cs">
+      <DependentUpon>dsRptCCFS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Income\dsRptIn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Income\dsRptIn.designer.cs">
+      <DependentUpon>dsRptIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Income\Entry\dsRptDirect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Income\Entry\dsRptDirect.designer.cs">
+      <DependentUpon>dsRptDirect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Income\Entry\dsRptInDocs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Income\Entry\dsRptInDocs.designer.cs">
+      <DependentUpon>dsRptInDocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Income\Entry\dsRptIncomePerson.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\Income\Entry\dsRptIncomePerson.designer.cs">
+      <DependentUpon>dsRptIncomePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ReportEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ReportEntry.Designer.cs">
+      <DependentUpon>ReportEntry.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Dialog\ActionProgress.resx">
+      <DependentUpon>ActionProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigDb.resx">
+      <DependentUpon>ConfigDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\ErrorMessage.resx">
+      <DependentUpon>ErrorMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\InfoMessage.resx">
+      <DependentUpon>InfoMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\WaiMessage.resx">
+      <DependentUpon>WaiMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog\SuccessMessage.resx">
+      <DependentUpon>SuccessMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Domestic\DomesticList.resx">
+      <DependentUpon>DomesticList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Domestic\DomesticRegister.resx">
+      <DependentUpon>DomesticRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\AddDecision.resx">
+      <DependentUpon>AddDecision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\Card\AddReply.resx">
+      <DependentUpon>AddReply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\Card\CardRegister.resx">
+      <DependentUpon>CardRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\Card\CardRegisterWizard.resx">
+      <DependentUpon>CardRegisterWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\DirectRegister.resx">
+      <DependentUpon>DirectRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\DirectRegisterMode.resx">
+      <DependentUpon>DirectRegisterMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\DirectRegisterWizard.resx">
+      <DependentUpon>DirectRegisterWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\IncomeList.resx">
+      <DependentUpon>IncomeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Income\Card\Renewal.resx">
+      <DependentUpon>Renewal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Info\AddDescription.resx">
+      <DependentUpon>AddDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Info\AddOrganizationInfo.resx">
+      <DependentUpon>AddOrganizationInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Info\OrganizationInfoList.resx">
+      <DependentUpon>OrganizationInfoList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Outcome\OutcomeList.resx">
+      <DependentUpon>OutcomeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Outcome\OutcomeRegister.resx">
+      <DependentUpon>OutcomeRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Page\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report\Income\dsControlCardBackS.resx">
+      <DependentUpon>dsControlCardBackS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Income\dsRptCCFS.resx">
+      <DependentUpon>dsRptCCFS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Income\dsRptIn.resx">
+      <DependentUpon>dsRptIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Income\Entry\dsRptDirect.resx">
+      <DependentUpon>dsRptDirect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Income\Entry\dsRptInDocs.resx">
+      <DependentUpon>dsRptInDocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Income\Entry\dsRptIncomePerson.resx">
+      <DependentUpon>dsRptIncomePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportEntry.resx">
+      <DependentUpon>ReportEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tileBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Government_logo_Mon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ErrorTemplate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\successful.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_remove.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_approve.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wired.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replay.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baggage_trolley.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldNews.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldNews1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_download1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-webdev-cancel-032x032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48px-Edit-clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-webdev-file-048x048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-webdev-print-048x048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quit-48x48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-webdev-file-128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-webdev-file-032x032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-webdev-print-032x032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\briefcase_download.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="info.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

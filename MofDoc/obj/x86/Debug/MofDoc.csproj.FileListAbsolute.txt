@@ -1,0 +1,86 @@
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\bin\Debug\MofDoc.exe
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\bin\Debug\MofDoc.pdb
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\bin\Debug\Oracle.ManagedDataAccessDTC.dll
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.ActionProgress.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.ConfigDb.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.ErrorMessage.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.InfoMessage.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.WaiMessage.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Home.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.SuccessMessage.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Login.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Domestic.DomesticList.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Domestic.DomesticRegister.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.AddDecision.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.AddReply.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.CardRegister.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.CardRegisterWizard.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.DirectRegister.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.DirectRegisterMode.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.DirectRegisterWizard.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.IncomeList.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.Renewal.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Info.AddDescription.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Info.AddOrganizationInfo.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Info.OrganizationInfoList.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.MainPage.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Outcome.OutcomeList.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Outcome.OutcomeRegister.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Search.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Properties.Resources.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.dsControlCardBackS.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.dsRptCCFS.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.dsRptIn.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.Entry.dsRptDirect.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.Entry.dsRptInDocs.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.Entry.dsRptIncomePerson.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.ReportEntry.resources
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.csproj.GenerateResource.Cache
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.exe.licenses
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.exe
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.pdb
+C:\Users\it0005211\Documents\Visual Studio 2010\Projects\MofDoc\MofDoc\obj\x86\Debug\MofDoc.csprojResolveAssemblyReference.cache
+G:\MofSystem\MofDoc\MofDoc\bin\Debug\MofDoc.exe
+G:\MofSystem\MofDoc\MofDoc\bin\Debug\MofDoc.pdb
+G:\MofSystem\MofDoc\MofDoc\bin\Debug\Oracle.ManagedDataAccess.dll
+G:\MofSystem\MofDoc\MofDoc\bin\Debug\Oracle.ManagedDataAccessDTC.dll
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.ActionProgress.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.ConfigDb.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.ErrorMessage.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.InfoMessage.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.WaiMessage.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Home.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Dialog.SuccessMessage.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Login.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Domestic.DomesticList.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Domestic.DomesticRegister.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.AddDecision.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.AddReply.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.CardRegister.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.CardRegisterWizard.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.DirectRegister.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.DirectRegisterMode.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.DirectRegisterWizard.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.IncomeList.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Income.Card.Renewal.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Info.AddDescription.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Info.AddOrganizationInfo.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Info.OrganizationInfoList.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.MainPage.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Outcome.OutcomeList.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Outcome.OutcomeRegister.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Forms.Page.Search.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Properties.Resources.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.dsControlCardBackS.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.dsRptCCFS.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.dsRptIn.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.Entry.dsRptDirect.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.Entry.dsRptInDocs.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.Income.Entry.dsRptIncomePerson.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.Report.ReportEntry.resources
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.csproj.GenerateResource.Cache
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.exe.licenses
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.exe
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.pdb
+G:\MofSystem\MofDoc\MofDoc\obj\x86\Debug\MofDoc.csprojResolveAssemblyReference.cache
